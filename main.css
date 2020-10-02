@@ -29,8 +29,11 @@ body img:hover {
   padding: 5px;
   border-radius: 20px;
   border: 2px solid black;
-  visibility: hidden;
   /* opacity: 0; */
+}
+.info ul{
+  visibility: visible;
+  transition: 1s;
 }
 .p1 ul {
   left: 150px;
