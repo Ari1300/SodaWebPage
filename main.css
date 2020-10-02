@@ -15,12 +15,15 @@ body img:hover {
     opacity: 50%;
     transition: 1s;
 }
-#M img:hover + .info + .p1 {
-  /* opacity: 100%; */
-  visibility: visible;
+#M {
+  display: flex;
+  justify-content: space-between;
+}
+#M img:hover + .info  {
+  opacity: 100%;
   transition: 1s;
 }
-.info ul {
+.info {
   pointer-events: none;
   position: absolute;
   background-color: gray;
@@ -29,10 +32,9 @@ body img:hover {
   padding: 5px;
   border-radius: 20px;
   border: 2px solid black;
-  visibility: hidden;
-  /* opacity: 0; */
+  opacity: 0;
 }
-.p1 ul {
+.p1 {
   left: 150px;
   bottom: 300px;
 }
