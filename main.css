@@ -2,7 +2,6 @@ body {
   background-color: red;
   text-align: center;
 }
-
 body img {
   width: 200px;
   height: 400px;
@@ -12,17 +11,31 @@ body img {
   border-radius: 50%;
   border: 10px solid black;
 }
-
 body img:hover {
     opacity: 50%;
     transition: 1s;
 }
-
-body img:hover + .info {
-  opacity: 100%;
+#M img:hover + .info + .p1 {
+  /* opacity: 100%; */
+  visibility: visible;
   transition: 1s;
 }
-
+.info ul {
+  pointer-events: none;
+  position: absolute;
+  background-color: gray;
+  width: 150px;
+  height: 130px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 2px solid black;
+  visibility: hidden;
+  /* opacity: 0; */
+}
+.p1 ul {
+  left: 150px;
+  bottom: 300px;
+}
 header  h1{
   text-align: center;
   align-content: center;
@@ -38,8 +51,78 @@ header  h1{
   border: solid 7px black;
   border-radius: 20px;
 }
-
-#MtnDewInfo::before {
+li{
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+  background-color: #6C6C6C;
+  text-align: center;
+  border-radius: 10px;
+  width: 125px;
+}
+#MtnDew{
   position: absolute;
-
+  left: 150px;
+}
+#DewPrice{
+  position: absolute;
+  left: 150px;
+  bottom: 90px;
+}
+#CokeZero{
+  position: absolute;
+  left: 540px;
+}
+#CokePrice{
+  position: absolute;
+  left: 540px;
+  bottom: 90px;
+}
+#DrPepper{
+  position: absolute;
+  left: 900px;
+}
+#DrPrice{
+  position: absolute;
+  left: 900px;
+  bottom: 90px;
+}
+#Water{
+  position: absolute;
+  right: 530px;
+}
+#WaterPrice{
+  position: absolute;
+  right: 530px;
+  bottom: 90px;
+}
+#Pepsi{
+  position: absolute;
+  right: 160px;
+}
+#PepsiPrice{
+  position: absolute;
+  right: 160px;
+  bottom: 90px;
+}
+#Room{
+  position: absolute;
+  background-color: #6C6C6C;
+  text-align: center;
+  padding: 10px;
+  width: 600px;
+  bottom: 10px;
+  border-radius: 10px;
+}
+#WaysToPay{
+  position: absolute;
+  background-color: #6C6C6C;
+  text-align: center;
+  padding: 10px;
+  width: 600px;
+  bottom: 10px;
+  right: 10px;
+  border: 50px;
+  border-radius: 10px;
 }
