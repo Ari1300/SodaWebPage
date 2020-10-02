@@ -26,3 +26,38 @@ header  h1{
   text-shadow: black 3px 5px;
   border: solid 7px black;
 }
+li{
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+  background-color: #6C6C6C;
+  text-align: center;
+  border-radius: 10px;
+  width: 125px;
+}
+#MtnDew{
+  position: absolute;
+  left: 270px;
+}
+#CokeZero{
+  position: absolute;
+  left: 570px;
+}
+#Room{
+  background-color: #6C6C6C;
+  text-align: center;
+  padding: 10px;
+  width: 600px;
+  border-radius: 10px;
+}
+#WaysToPay{
+  position: absolute;
+  background-color: #6C6C6C;
+  text-align: center;
+  padding: 10px;
+  width: 600px;
+  right: 10px;
+  border: 50px;
+  border-radius: 10px;
+}
