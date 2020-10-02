@@ -40,17 +40,61 @@ h3{
 }
 #MtnDew{
   position: absolute;
-  left: 270px;
+  left: 150px;
 }
+#DewPrice{
+  position: absolute;
+  left: 150px;
+  bottom: 90px;
+}
+
 #CokeZero{
   position: absolute;
-  left: 570px;
+  left: 540px;
 }
+#CokePrice{
+  position: absolute;
+  left: 540px;
+  bottom: 90px;
+}
+
+#DrPepper{
+  position: absolute;
+  left: 900px;
+}
+#DrPrice{
+  position: absolute;
+  left: 900px;
+  bottom: 90px;
+}
+
+#Water{
+  position: absolute;
+  right: 530px;
+}
+#WaterPrice{
+  position: absolute;
+  right: 530px;
+  bottom: 90px;
+}
+
+#Pepsi{
+  position: absolute;
+  right: 160px;
+}
+#PepsiPrice{
+  position: absolute;
+  right: 160px;
+  bottom: 90px;
+}
+
 #Room{
+  position: absolute;
   background-color: #6C6C6C;
   text-align: center;
   padding: 10px;
   width: 600px;
+  bottom: 10px;
   border-radius: 10px;
 }
 #WaysToPay{
@@ -59,6 +103,7 @@ h3{
   text-align: center;
   padding: 10px;
   width: 600px;
+  bottom: 10px;
   right: 10px;
   border: 50px;
   border-radius: 10px;
