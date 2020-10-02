@@ -6,8 +6,8 @@ body img {
   width: 200px;
   height: 400px;
   background-color: white;
-  padding: 50px;
   margin: 20px;
+  padding: 50px;
   border-radius: 50%;
   border: 10px solid black;
 }
@@ -16,7 +16,7 @@ body img:hover {
     transition: 1s;
 }
 #M {
-  display: flex;
+  display: grid;
   justify-content: space-between;
 }
 #M img:hover + .info  {
@@ -35,20 +35,24 @@ body img:hover {
   opacity: 0;
 }
 .p1 {
-  left: 150px;
+  left: 170px;
   bottom: 300px;
 }
 .p2 {
-  left: 510px;
+  left: 530px;
   bottom: 300px;
 }
 .p4 {
-    right: 515px;
+    right: 490px;
     bottom: 300px;
 }
 .p5 {
-  right: 150px;
+  right: 130px;
   bottom: 300px;
+}
+.p6 {
+  left: 890px;
+  bottom: -250px;
 }
 header  h1{
   text-align: center;
